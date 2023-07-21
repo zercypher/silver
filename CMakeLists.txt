@@ -20,3 +20,6 @@ endif()
 # Initialize the CMake project
 project(silver LANGUAGES CXX)
 
+list(APPEND CMAKE_MODULE_PATH "cmake")
+include(AssertOutOfSourceBuild)
+
